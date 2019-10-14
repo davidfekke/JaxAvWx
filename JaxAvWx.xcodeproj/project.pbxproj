@@ -13,6 +13,9 @@
 		B2E1CF4B23525EB700342F17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2E1CF4A23525EB700342F17 /* Assets.xcassets */; };
 		B2E1CF4E23525EB700342F17 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2E1CF4D23525EB700342F17 /* Preview Assets.xcassets */; };
 		B2E1CF5123525EB700342F17 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2E1CF4F23525EB700342F17 /* LaunchScreen.storyboard */; };
+		B2E1CF5923525FF800342F17 /* Airport.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2E1CF5823525FF800342F17 /* Airport.swift */; };
+		B2E1CF5D23529B9000342F17 /* AviationWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2E1CF5C23529B9000342F17 /* AviationWeather.swift */; };
+		B2E1CF5F2352AE5D00342F17 /* Metar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2E1CF5E2352AE5D00342F17 /* Metar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		B2E1CF4D23525EB700342F17 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B2E1CF5023525EB700342F17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B2E1CF5223525EB700342F17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2E1CF5823525FF800342F17 /* Airport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Airport.swift; sourceTree = "<group>"; };
+		B2E1CF5C23529B9000342F17 /* AviationWeather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AviationWeather.swift; sourceTree = "<group>"; };
+		B2E1CF5E2352AE5D00342F17 /* Metar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Metar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +65,13 @@
 				B2E1CF4423525EB200342F17 /* AppDelegate.swift */,
 				B2E1CF4623525EB300342F17 /* SceneDelegate.swift */,
 				B2E1CF4823525EB300342F17 /* ContentView.swift */,
+				B2E1CF5823525FF800342F17 /* Airport.swift */,
 				B2E1CF4A23525EB700342F17 /* Assets.xcassets */,
 				B2E1CF4F23525EB700342F17 /* LaunchScreen.storyboard */,
 				B2E1CF5223525EB700342F17 /* Info.plist */,
 				B2E1CF4C23525EB700342F17 /* Preview Content */,
+				B2E1CF5C23529B9000342F17 /* AviationWeather.swift */,
+				B2E1CF5E2352AE5D00342F17 /* Metar.swift */,
 			);
 			path = JaxAvWx;
 			sourceTree = "<group>";
@@ -147,7 +156,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				B2E1CF4523525EB200342F17 /* AppDelegate.swift in Sources */,
+				B2E1CF5F2352AE5D00342F17 /* Metar.swift in Sources */,
+				B2E1CF5923525FF800342F17 /* Airport.swift in Sources */,
 				B2E1CF4723525EB300342F17 /* SceneDelegate.swift in Sources */,
+				B2E1CF5D23529B9000342F17 /* AviationWeather.swift in Sources */,
 				B2E1CF4923525EB300342F17 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

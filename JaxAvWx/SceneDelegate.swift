@@ -20,7 +20,16 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
 
         // Create the SwiftUI view that provides the window contents.
-        let contentView = ContentView()
+        let airports = [
+            Airport(identifier: "KCRG", name: "Jacksonville Executive at Craig"),
+            Airport(identifier: "KVQQ", name: "Cecil Field"),
+            Airport(identifier: "KJAX", name: "Jacksonville Internation Airport"),
+            Airport(identifier: "KHEG", name: "Herlong Regoinal Airport"),
+            Airport(identifier: "KNIP", name: "Jax NAS"),
+            Airport(identifier: "KNRB", name: "Mayport")
+        ]
+        let contentView = ContentView(airports: airports)
+        
 
         // Use a UIHostingController as window root view controller.
         if let windowScene = scene as? UIWindowScene {
